@@ -27,7 +27,7 @@
   },
   "bundle": {
     "active": true,
-    "targets": "all",
+    "targets": ["appimage", "deb", "nsis"],
     "publisher": "Jig",
     "shortDescription": "Set-up sheet editor for CNC machining",
     "icon": [
