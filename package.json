@@ -1,0 +1,17 @@
+{
+  "name": "jig",
+  "private": true,
+  "type": "module",
+  "version": "0.1.0",
+  "description": "Jig - set-up sheet editor for CNC machining, with PDF and HTML offline copies",
+  "scripts": {
+    "tauri": "tauri",
+    "test": "node test/run.mjs",
+    "dev": "tauri dev",
+    "build": "tauri build"
+  },
+  "devDependencies": {
+    "@tauri-apps/cli": "2.12.3"
+  },
+  "license": "GPL-3.0-or-later"
+}
